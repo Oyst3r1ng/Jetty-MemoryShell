@@ -1,0 +1,23 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>BehinderServletMemoryShell</servlet-name>
+    <servlet-class>com.xxx.BehinderServletMemoryShell</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TestServlet</servlet-name>
+    <servlet-class>com.xxx.TestServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BehinderServletMemoryShell</servlet-name>
+    <url-pattern>/inject</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TestServlet</servlet-name>
+    <url-pattern>/test</url-pattern>
+  </servlet-mapping>
+</web-app>
