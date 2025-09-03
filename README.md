@@ -14,8 +14,9 @@
 
 ![alt text](images/1.png)
 
-2. 启动 Jetty（插件方式）。接着运行 mvn jetty:run，启动 Jetty 服务器。
+2. 启动 Jetty（插件方式）。运行 mvn jetty:run，启动 Jetty 服务器。
+![alt text](images/2.png)
 
 3. 注入内存马。访问 /inject 注入冰蝎内存马至 /shell，用客户端连接成功，如下-->
 
-![alt text](images/2.png)
+![alt text](images/3.png)
